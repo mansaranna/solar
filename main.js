@@ -36,15 +36,15 @@ function createOrbit(radius) {
 
 // Planet config data
 const planetData = [
-  { name: "Sun", model: "models/sun.glb", size: 10, orbit: 0, orbitSpeed: 0 },
-  { name: "Mercury", model: "models/mercury.glb", size: 0.38, orbit: 20, orbitSpeed: 0.04 },
-  { name: "Venus", model: "models/venus.glb", size: 0.95, orbit: 30, orbitSpeed: 0.015 },
-  { name: "Earth", model: "models/earth.glb", size: 1, orbit: 40, orbitSpeed: 0.01 },
-  { name: "Mars", model: "models/mars.glb", size: 0.53, orbit: 50, orbitSpeed: 0.008 },
-  { name: "Jupiter", model: "models/jupiter.glb", size: 11.2, orbit: 70, orbitSpeed: 0.002 },
-  { name: "Saturn", model: "models/saturn.glb", size: 9.45, orbit: 90, orbitSpeed: 0.0018 },
-  { name: "Uranus", model: "models/uranus.glb", size: 4, orbit: 110, orbitSpeed: 0.0012 },
-  { name: "Neptune", model: "models/neptune.glb", size: 3.88, orbit: 130, orbitSpeed: 0.0009 }
+  { name: "Sun", model: "./models/sun.glb", size: 10, orbit: 0, orbitSpeed: 0 },
+  { name: "Mercury", model: "./models/mercury.glb", size: 0.38, orbit: 20, orbitSpeed: 0.04 },
+  { name: "Venus", model: "./models/venus.glb", size: 0.95, orbit: 30, orbitSpeed: 0.015 },
+  { name: "Earth", model: "./models/earth.glb", size: 1, orbit: 40, orbitSpeed: 0.01 },
+  { name: "Mars", model: "./models/mars.glb", size: 0.53, orbit: 50, orbitSpeed: 0.008 },
+  { name: "Jupiter", model: "./models/jupiter.glb", size: 11.2, orbit: 70, orbitSpeed: 0.002 },
+  { name: "Saturn", model: "./models/saturn.glb", size: 9.45, orbit: 90, orbitSpeed: 0.0018 },
+  { name: "Uranus", model: "./models/uranus.glb", size: 4, orbit: 110, orbitSpeed: 0.0012 },
+  { name: "Neptune", model: "./models/neptune.glb", size: 3.88, orbit: 130, orbitSpeed: 0.0009 }
 ];
 
 const loader = new GLTFLoader();
